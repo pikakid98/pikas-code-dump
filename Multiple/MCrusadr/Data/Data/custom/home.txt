@@ -1,0 +1,77 @@
+//char_stage [ ufighter_get_dbid ( "c1" ) , 0 ] = 1; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 1 ] = "battlefield"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c2" ) , 0 ] = 2; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 2 ] = "final"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c3" ) , 0 ] = 3; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 2 ] = "final"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 3 ] = "metacrystal"; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 0 ] = 1; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 1 ] = "battlefield"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c2" ) , 0 ] = 2; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 2 ] = "final"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c3" ) , 0 ] = 3; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 2 ] = "final"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 3 ] = "metacrystal"; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 0 ] = 1; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 1 ] = "battlefield"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c2" ) , 0 ] = 2; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 2 ] = "final"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c3" ) , 0 ] = 3; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 2 ] = "final"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 3 ] = "metacrystal"; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 0 ] = 1; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 1 ] = "battlefield"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c2" ) , 0 ] = 2; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 2 ] = "final"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c3" ) , 0 ] = 3; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 2 ] = "final"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 3 ] = "metacrystal"; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 0 ] = 1; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 1 ] = "battlefield"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c2" ) , 0 ] = 2; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 2 ] = "final"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c3" ) , 0 ] = 3; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 2 ] = "final"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 3 ] = "metacrystal"; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 0 ] = 1; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 1 ] = "battlefield"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c2" ) , 0 ] = 2; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 2 ] = "final"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c3" ) , 0 ] = 3; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 2 ] = "final"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 3 ] = "metacrystal"; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 0 ] = 1; 
+//char_stage [ ufighter_get_dbid ( "c1" ) , 1 ] = "battlefield"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c2" ) , 0 ] = 2; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c2" ) , 2 ] = "final"; 
+ECHO is off.
+//char_stage [ ufighter_get_dbid ( "c3" ) , 0 ] = 3; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 1 ] = "battlefield"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 2 ] = "final"; 
+//char_stage [ ufighter_get_dbid ( "c3" ) , 3 ] = "metacrystal"; 

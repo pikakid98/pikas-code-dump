@@ -1,0 +1,145 @@
+Dev - 23/11/2022
+• Made all of the file names more Game Maker Studio friendly
+• Ported the main launcher to Game Maker Studio (Experimental)
+• Ported PLUpdater to Game Maker 8.1 to replace the config menu
+• Added a new PLDown program to add a visual for downloading
+-------------------------------------------------------------
+Dev - 28/10/2022
+• Fixed erroneous changelog "fixes"
+• Fixed logo positioning
+• Removed temp text from all repos with logos shown
+• Finished all repo logos
+• Moved boxarts more to the right
+• Removed broken temp code from "config con2 obj"
+• Fixed a dumb mistake where if "fti.txt" existed, it would revert your config settings
+• Fixed the duplicate download scripts
+• Launcher now downloads Git-dev_28-10-2022.7z (This is for dev versions only)
+• Portable mode and other "More" settings are now affected by SilentCMD
+• Cat Warfare Pre-Alpha Launcher's portable mode now creates and deletes 2 files instead of 1
+• Utility downloader now actually deletes utilities if one is unticked after downloading
+• Launcher now shows when portable mode is enabled
+• Added option to download MPC-BE for Pika's Greenscreen Repo
+-------------------------------------------------------------
+Dev - 13/10/2022
+• Added Seperators On The Config Menu
+• Added build selector (Currently only allows dev builds in current dev build)
+• Added "Force Utility Download" button
+• Fixed the broken utility downloader if no extra tools are selected
+• Added a button to return to the config menu
+• Added logos (Currently incomplete)
+• Init now opens silently if SilentCMD is installed
+• Now uses GM82 Core and GM82 DX8
+• Clear tool now runs silently if SilentCMD is installed
+• Version is now seperated by a ~
+------------------------------------------------------------
+Dev - 30/9/2022
+• Added config menu
+• Removed pointless "window border removal" from init as it's already hidden
+• Cave Of The Dead page now doesn't delete Markiplier's Mansion clickbox anymore
+• Renamed "check for close" to "persist"
+• Added fti check in init
+• Added utility downloader
+• Window now hides for opening "First Time Init" and regular "Init"
+• Repo file names now renamed with dashes for SilentCMD. Example: "file name.bat" would now be "file-name.bat"
+------------------------------------------------------------
+v0.6.1
+• Finally fixed "7za" being called in init instead of "7zr".. Sorry o-O
+• Finally fixed incorrect file names in init
+------------------------------------------------------------
+v0.6
+• Added slide-in boxarts for all repos (Merged from Dev 18/8/2022, 12/7/2022, 2/7/2022 and 29/6/2022)
+• Updated 7-Zip from v22.0 to v22.1 as well as replaced 7za with 7zr (Merged from Dev 18/8/2022)
+• Launcher now downloads Git-06.7z
+• All downloads now go in the Launcher's own Data folder instead of %userdata%\Documents\Pikakid98 Launcher (Merged from Dev 18/8/2022)
+• Renamed "update checker.bat" to "init.bat" (Merged from Dev 18/8/2022)
+• Init now runs "init.bat" with a sleep command (Merged from Dev 18/8/2022)
+• Removed "Mode" function from update checker.bat due to breaking on older versions of Windows (Merged from Dev 29/6/2022)
+• Added option to create portable.txt in Cat Warfare Pre-Alpha Launcher via more button
+• Altered layout of Git files
+• All repos now change directories (using "cd" in command prompt) to prevent errors
+------------------------------------------------------------
+Dev - 18/7/2022
+• Included files will no longer be included with the project file. You will now need to manually add them yourself. This saves having to readd the files whenever minor changes are made
+• Added PHE Adventures' Boxart
+• Added The Legend Of Zelda: Sword Of Destiny's Boxart
+• Fixed minor mistake in update checker.bat
+------------------------------------------------------------
+Dev - 12/7/2022
+• Launcher now downloads Git-dev_12-7-2022.7z (This is for Dev builds only)
+• Finished all of the portable text file adjustments  (Currently in the test phase for QA)
+• Added Cave Of The Dead's Boxart
+• Added Cave Of The Dead - Remastered's Boxart
+------------------------------------------------------------
+Dev - 2/7/2022
+• Launcher now downloads Git-dev_2-7-2022.7z (This is for Dev builds only)
+• Fixed changelog bullet point error from previous dev build
+• Updated Markiplier's Mansion {DEMO} script
+• Updated PHE Adventures script
+• Fixed an error in the changelog (The first 4 were done in the previous dev build. Not 3)
+------------------------------------------------------------
+Dev - 29/6/2022
+• Added boxarts sliding in (The current dev build uses temp boxarts)
+• Updated 7-Zip to v22.0
+• Removed "Mode" function from update checker.bat due to breaking on older versions of Windows
+• Added portable mode by making a "portable.txt" next to the main .exe (Keep in mind that as of now only the first 3 have been altered)
+• Launcher now downloads Git-dev_29-6-2022.7z (This is for Dev builds only)
+------------------------------------------------------------
+v0.5.3
+• Fixed Games/Apps Etc. opening on their own sometimes (Hopefully)
+• Prevented opening the same page multiple times
+• Changelog now opens in it's own window
+------------------------------------------------------------
+v0.5.2
+• Added Pikakid98 Launcher: Special Edition
+• Made text smaller for repo names
+• update checker.bat now downloads "Git-052.bat"
+------------------------------------------------------------
+v0.5.1.1
+• Updated the version number on the window bar (I forgot to do that)
+------------------------------------------------------------
+v0.5.1
+• Window border on initialization is now gone
+• update checker.bat now deletes old Git and temp folders (if one exists)
+------------------------------------------------------------
+v0.5
+• Removed HTTP Downloader
+• Added a sleep command on boot for Git loading
+• Updated clear.bat to remove HTTP Downloader directories
+• Updated update checker.bat to write update a VBS downloader
+• Deleted "Lost content" folders in Sprites and Objects
+• The main batch scripts now extract to GM_Temp
+• Changed the main page's background
+• Now patched with gm8x_fix (v0.5.8) [Comes included]
+• Updated Git repo file download
+• Updated play button icon
+• Updated more button
+• Completely rewrote the downloader in Visual Basic
+------------------------------------------------------------
+v0.4
+• Removed opening loading screen
+• Added a "nomore" command to disable the "More" button
+• Removed message popup for "More" option (It's unused now)
+• font0 renamed to Arial
+• Upped the character range of Arial font to "All"
+• Added image to main page
+• Added AR DARLING Font
+• Added text to the main page
+• Added titles to repo pages
+• Removed function key options
+• Mapped a changelog to the F1 key
+------------------------------------------------------------
+v0.3
+• Changed the icon
+• Fixed the text overflow
+------------------------------------------------------------
+v0.2.2
+• Fixed the incorrect 7z command in updater
+------------------------------------------------------------
+v0.2.1
+• Updated HTTP Downloader to v1.0.4.8
+• Replaced 7-Zip with "Alone" version
+• This release finally comes with a seperate auto updater tool that SHOULD work
+------------------------------------------------------------
+v0.2
+• Fixed Markiplier's Mansion {DEMO}'s incorrect label
+• Fixed Non-functional arrow button turning into the wrong sprite

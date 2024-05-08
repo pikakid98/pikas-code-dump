@@ -1,0 +1,5 @@
+copy "..\..\AutoHotkey\DarkMode\DarkMode.scriptlet" ".Cmpl8r"
+
+"%AHK%\Compiler\Ahk2Exe.exe" /in "GMLauncher.ahk" /out "Output\GMLauncher.exe" /icon "icon.ico" /compress 2 /base "%AHK%\v2\AutoHotkey64.exe"
+
+del ".Cmpl8r\DarkMode.scriptlet" /S /Q

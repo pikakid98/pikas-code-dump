@@ -1,0 +1,1 @@
+START /wait "" "%LOCALAPPDATA%\Temp\Flash_Temp\Flash.exe" "%LOCALAPPDATA%\Temp\Flash_Temp\game.swf"

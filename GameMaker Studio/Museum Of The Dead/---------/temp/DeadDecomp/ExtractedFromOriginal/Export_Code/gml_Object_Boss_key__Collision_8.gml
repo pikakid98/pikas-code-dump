@@ -1,0 +1,7 @@
+action_set_relative(1)
+with (Boss_door_)
+    action_kill_object()
+with (Boss_key_)
+    action_kill_object()
+action_set_score(100)
+action_set_relative(0)

@@ -1,0 +1,87 @@
+----------------------------------------------+AFs-Launcher+AF0---------------------------------------
+Add module downloader for 7-Zip, gm8x+AF8-fix and SilentCMD
+
+Make a config menu to change settings to disable insallation of gm8x+AF8-fix and/or SilentCMD
+
+Add logos coming down like the boxarts
+
+Add information about the repository on the launcher
+
+Change Cave Of The Dead's background to new title screen
+
+Version tracker batch script +- Install batch script
+
+Window Hider (Hide the window when a repo is launched)
+
+Add everything from GameJolt and Itch.io
+
+Add links to GameJolt and Itch.io from the dropdown
+
+Offline Mode
+
+------------------------------------------------+AFs-Other+AF0----------------------------------------
+
+Make a GUI for Simple M3U Maker and set the launcher as the new background image for the launcher
+
+Museum Of The Dead
++AHwAXwBfAF8AXwBfAF8AXw-Compilation of every version of Cave Of The Dead into GMS
++AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Cave Of The Dead (v1.0)
++AHw-	+AHw-
++AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Cave Of The Dead Remastered
++AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Remake from binary due to lost source code
++AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AFwAXwBfAF8AXwBfAF8AXw-Add to prototypes menu
++AHw-	+AHw-
++AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Cave Of The Dead Classic (v2.0)
++AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Intro cutscene
++AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Outro cutscene
++AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-New music
++AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AFwAXwBfAF8AXwBfAF8AXw-Fix the wonky +ACI-diagonal movement freeze+ACI- bug
++AHw-	+AHw-
++AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Cave Of The Dead 2: Dimensional Disaster
++AHw-	+AHw-	+AFwAXwBfAF8AXwBfAF8AXw-Remake from binary due to lost source code
++AHw-	+AHw-
++AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Cab Ov Did (With bug fixes)
++AHw-	+AHw-	+AFwAXwBfAF8AXwBfAF8AXw-Fix the off centre explosions
++AHw-	+AHw-
++AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Cave Of The Dead: Retold
++AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-A new take on the COTD story (Unlockable after completion)
++AHw-	+AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Mike Caver meets the demon king's daughter and falls in love
++AHw-	+AHw-	+AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Light purple skin
++AHw-	+AHw-	+AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Black and red eyes
++AHw-	+AHw-	+AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Succubus
++AHw-	+AHw-	+AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Thin-ish, Medium sized black curved horns
++AHw-	+AHw-	+AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Shy yet kind (Unlike her father)
++AHw-	+AHw-	+AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AHw-	+AHw-	+AFwAXwBfAF8AXwBfAF8AXw-Permanent evil scowl in her eyes (Looks unfriendly)
++AHw-	+AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AHw-	+AHwAXwBfAF8AXwBfAF8AXw-Child abuse themes
++AHw-	+AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AHw-	+AFwAXwBfAF8AXwBfAF8AXw-Bullet Hell
++AHw-	+AHw-	+AHw-
++AHw-	+AHw-	+AFwAXwBfAF8AXwBfAF8AXw-Set up for a possible sequel
++AHw-	+AHw-		+AFwAXwBfAF8AXwBfAF8AXw-Stars Mike and +AFs-Currently unnamed Demon King's Daughter+AF0-'s daughter
++AHw-	+AHw-			+AFwAXwBfAF8AXwBfAF8AXw-Looks like Mike Caver but with Succubus wings and one small horn
++AHw-	+AHw-
++AHw-	+AFwAXwBfAF8AXwBfAF8AXw-Cave Of The Dead +-
++AHw-		+AFwAXwBfAF8AXwBfAF8AXw-Recreate from memory and add to a prototype menu
++AHw-
++AHwAXwBfAF8AXwBfAF8AXw-Add an intro with a stage and the title dangling on ropes with World Bowser music playing
++AHw-
++AHwAXwBfAF8AXwBfAF8AXw-Archive every build and upload them with source code in +ACI-Pre-Release+ACI- build called +ACI-Old Builds (For Archival)+ACI-
++AHw-
++AHwAXwBfAF8AXwBfAF8AXw-Each build is played with a computer border as a background to fill the empty space
++AHw-
++AHwAXwBfAF8AXwBfAF8AXw-Add Gamepad support
++AHw-
++AHwAXwBfAF8AXwBfAF8AXw-Icon is a boxart showing all of the games in one
++AHw-
++AFwAXwBfAF8AXwBfAF8AXw-Game opens up with borderless window with a spinning boxart with VHS effects
+	+AFwAXwBfAF8AXwBfAF8AXw-Waiting for 15 seconds plays a C64 TTS saying +ACI-Click the boxart to play+ACI- with subtitles

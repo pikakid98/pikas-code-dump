@@ -1,0 +1,9 @@
+rmdir "Output" /S /Q
+
+mkdir "Output"
+
+copy "..\..\AutoHotkey\DarkMode\DarkMode.scriptlet" "%cd%"
+
+"%AHK%\Compiler\Ahk2Exe.exe" /in "GMLauncher.ahk" /out "Output\GMLauncher.exe" /icon "icon.ico" /compress 1 /base "%AHK%\v2\AutoHotkey64.exe"
+
+del "DarkMode.scriptlet" /S /Q

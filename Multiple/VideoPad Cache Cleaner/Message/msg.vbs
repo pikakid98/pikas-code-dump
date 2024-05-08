@@ -1,0 +1,1 @@
+answer = msgbox("VideoPad Cache Cleaner has finished clearing VideoPad's cache and videos folders", vbDefaultButton1, "VideoPad Cache Cleaner")

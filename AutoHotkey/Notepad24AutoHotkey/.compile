@@ -1,0 +1,5 @@
+"%sevenz%" x "np2.7z" -o".Cmpl8r\np2"
+
+"%AHK%\Compiler\Ahk2Exe.exe" /in "Notepad24AutoHotkey.ahk" /out "Output\Notepad24AutoHotkey.exe" /icon "icon.ico" /compress 1 /base "%AHK%\v2\AutoHotkey64.exe"
+
+rmdir ".Cmpl8r\np2" /S /Q

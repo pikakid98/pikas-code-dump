@@ -1,0 +1,9 @@
+rmdir "Output" /S /Q
+
+mkdir "Output"
+
+robocopy "App" "Output\App" /E
+
+cd "Output"
+
+START "" "%PALG%\PortableApps.comLauncherGenerator.exe" "%CD%"

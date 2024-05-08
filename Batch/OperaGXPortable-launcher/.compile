@@ -1,0 +1,2 @@
+@ECHO OFF
+START "" "%userprofile%\Desktop\~Not For You~\Extra\Apps\PortableApps.com Platform\PortableApps\PortableApps.comLauncher\PortableApps.comLauncherGenerator.exe" "%CD%"

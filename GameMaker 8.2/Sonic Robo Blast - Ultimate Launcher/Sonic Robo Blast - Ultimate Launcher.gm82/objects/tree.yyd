@@ -1,0 +1,25 @@
++launch
+	|SRB2_launch
+	|SRB2K_launch
++buttons
+	|SRB2_button
+	|SRB2K_button
+	|EXEM
+	|legacy
+	|fangames
+	|object640
++other
+	|SRB2_link
+	|SRB2K_link
+	|legacy_link
+	|obj_linkno
++logos
+	|obj_SRB2
+	|obj_SRB2K
+	|obj_SRBC
+	|obj_SRB2exem
+	|obj_fg
+|version
+|draw
+|persist
+|init

@@ -1,0 +1,10 @@
+rmdir "Output" /S /Q
+
+mkdir "Output"
+mkdir "Output\Data"
+mkdir "Output\Data\Prototypes"
+mkdir "Output\Data\Tools"
+
+robocopy  "Data\Prototypes"  "Output\Data\Prototypes" /MIR
+
+"%sevenz%" x "Data\Tools\FFMPEG.7z" -o"Output\Data\Tools\FFMPEG"

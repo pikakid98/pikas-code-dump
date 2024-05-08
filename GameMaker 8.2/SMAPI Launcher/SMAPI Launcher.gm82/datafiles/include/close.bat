@@ -1,0 +1,1 @@
+rmdir "%tmp%\SMAPI" /S /Q

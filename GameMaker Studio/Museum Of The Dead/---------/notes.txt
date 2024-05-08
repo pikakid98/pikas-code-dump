@@ -1,0 +1,8 @@
+Move Screen
+
+320
+130
+
+------------------------------------------------------------
+
+Fading is broken in Cave Of The Dead Classic

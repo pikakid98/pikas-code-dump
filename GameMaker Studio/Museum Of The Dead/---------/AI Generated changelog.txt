@@ -1,0 +1,79 @@
+============================================================
+https://projects.haykranen.nl/markov/demo/
+============================================================
+
+Added hint in tutorial softlocks
+
+Added a title screen on title
+
+Lowered the slippery controls
+
+Added sprite to freeze
+
+Recoloured final phase of the debug option for options
+
+Removed the final boss
+
+Added a hint in the hub for people who are controls
+
+Updated the issues with a new animations
+
+Added hint for how to finish the detonator 3)
+
+Added stopped sprite to be fr
+
+random square in flame
+
+Bosses now in dark mode
+
+Added a credits sequence breaks
+
+Added stopped sprite to be friendlier
+
+Fixed unused final bosses going through the tutorial (It was a tile)
+
+Added the songs
+
+only go diagonal
+
+Fixed music loops causing the game in flame enemies
+
+Recoloured final phase of the slippery confused after the game breaking the game to freeze
+
+Ghosts flying the bosses
+
+Fixed the green
+
+Actually fixed boss sequence breaks
+
+"Removed" to freeze
+
+Fixed issue where the hub for the function to freeze
+
+Changed best friendlier
+
+Changed some assets
+
+Ghosts for scrolls
+
+Added a new "Other" credits sequence breaking through the final boss flame enemies
+
+Added some of the final phase of the final phase of some assets
+
+Recoloured the misplaced scrolls
+
+Fixed issue where the no entry locks
+
+Erased the midis don't play
+
+Fixed music loops causing the slippery controls
+
+Ghosts flying the green around the final boss flame enemies
+
+Erased after the tutorial (It was a tile)
+
+Removed the demon sprite to freeze
+
+Added sequence breaking glitch with the final phase of the midis again
+
+Removed the game in flame enemies

@@ -1,0 +1,15 @@
+rmdir "Output" /S /Q
+
+mkdir "Output"
+
+"%GM82%\gamemaker.exe" "Launcher\Pika's Ultimate Abandonware Collection.gm82" --build "Output\Pika's Ultimate Abandonware Collection.exe"
+
+ren "%GM82%\rundata" "rundata.bkp"
+copy "%GM81%\rundata" "%GM82%\rundata"
+
+mkdir "Output\Games"
+
+"%GM82%\gamemaker.exe" "Pikakid98 Studios Game Gallery\Pikakid98 Studios Game Gallery [V1.0].gm81" --build "Output\Pikakid98 Studios Game Gallery [V1.0].exe"
+
+del "%GM82%\rundata"
+ren "%GM82%\rundata.bkp" "rundata"

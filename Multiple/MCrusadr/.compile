@@ -1,0 +1,12 @@
+rmdir "Output" /S /Q
+
+mkdir "Output"
+
+C:\Windows\Microsoft.NET\Framework64\v3.5\csc.exe "Wrapper\MCrusadr.cs"
+
+robocopy "Data\Data" "Output\Data" /E
+
+"%RH%\ResourceHackerPortable.exe" -open MCrusadr.exe -save MCrusadr_new.exe -action addskip -res "Wrapper\icon.ico" -mask ICONGROUP,MAINICON,
+del "MCrusadr.exe" /S /Q
+ren "MCrusadr_new.exe" "MCrusadr.exe"
+move "MCrusadr.exe" "Output"

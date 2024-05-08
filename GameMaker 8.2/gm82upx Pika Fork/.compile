@@ -1,0 +1,9 @@
+rmdir "Output" /S /Q
+
+mkdir "Output"
+
+"%GM82%\gamemaker.exe" "gm82upx.gm82\gm82upx.gm82" --build "%tmp%\gm82upx.exe"
+"%GM82upx%\gm82upx.exe" "%tmp%\gm82upx.exe"
+move "%tmp%\gm82upx.exe" "Output"
+del "is.silent" /S /Q
+del "tmp.exe" /S /Q

@@ -1,0 +1,5 @@
+rmdir "Output" /S /Q
+
+mkdir "Output"
+
+"%AHK%\Compiler\Ahk2Exe.exe" /in "Ruby.ahk" /out "Output\Ruby.exe" /icon "ruby.ico" /compress 1 /base "%AHK%\v2\AutoHotkey64.exe"

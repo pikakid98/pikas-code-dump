@@ -1,0 +1,3 @@
+mkdir "Output"
+
+"C:\Users\Pika\Apps\AutoHotkey\Compiler\Ahk2Exe.exe" /in "Pikromium.ahk" /out "Output\Pikromium.exe" /icon "Icon.ico" /compress 1 /base "C:\Users\Pika\Apps\AutoHotkey\v2\AutoHotkey64.exe"

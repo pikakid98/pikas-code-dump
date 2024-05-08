@@ -1,0 +1,6 @@
+if PID := ProcessExist("Notepad2.exe") {
+	Exit
+} else {
+	FileDelete "notepad2ahk.tmp"
+	Exit
+}

@@ -1,0 +1,6 @@
+with (Jordan)
+    action_change_object(33, 0)
+with (boss_1_)
+    action_kill_object()
+with (possessed_best_friend_)
+    action_change_object(53, 0)
