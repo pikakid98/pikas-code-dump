@@ -1,0 +1,15 @@
+Class 1
+Name = "Youtuber"
+Description = ""
+Note = ""
+
+Class 2
+Name = "Dark Clone"
+Description = ""
+Note = ""
+
+Class 3
+Name = "Sentry Robot"
+Description = ""
+Note = ""
+

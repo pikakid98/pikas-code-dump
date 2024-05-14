@@ -1,0 +1,50 @@
+Class 1
+Name = "Soldier"
+Description = ""
+Note = ""
+
+Class 2
+Name = "Monk"
+Description = ""
+Note = ""
+
+Class 3
+Name = "Paladin"
+Description = ""
+Note = ""
+
+Class 4
+Name = "Spellblade"
+Description = ""
+Note = ""
+
+Class 5
+Name = "Samurai"
+Description = ""
+Note = ""
+
+Class 6
+Name = "Archer"
+Description = ""
+Note = ""
+
+Class 7
+Name = "Thief"
+Description = ""
+Note = ""
+
+Class 8
+Name = "Priestess"
+Description = ""
+Note = ""
+
+Class 9
+Name = "Witch"
+Description = ""
+Note = ""
+
+Class 10
+Name = "Sage"
+Description = ""
+Note = ""
+

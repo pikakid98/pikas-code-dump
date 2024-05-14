@@ -1,0 +1,5 @@
+Weapon 1
+Name = ""
+Description = ""
+Note = ""
+

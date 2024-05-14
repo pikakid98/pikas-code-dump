@@ -1,0 +1,382 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[6][Jordan]"])
+    ShowText([" \\C[0]Hey There. I'm Jordan. I Developed This \"Game\""])
+    ShowText([" If You Have Any Questions About This \"Game\""])
+    ShowText([" Don't Be Afraid To Give Me A Shout"])
+    ShowChoices([["What's With The Music?", "Why Is This In Alpha?", "Are You A Real Person?", "Nothing... Bye"], 2])
+    When([0, "What's With The Music?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[6][Jordan]"])
+      ShowText([" \\C[0]The Music? Well The Song Playing Right Now Is"])
+      ShowText([" Called \"Razors Edge\" By J Kyle Pittman From The"])
+      ShowText([" Game \"Super Win The Game\"... Cool Isn't It?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[6][Jordan]"])
+      ShowText([" \\C[0]And The Title Music Was \"The Seven Seas\" By"])
+      ShowText([" \"F-777\" From His \"Pirate Dance Machine Album\""])
+      Empty([])
+
+    When([1, "Why Is This In Alpha?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[6][Jordan]"])
+      ShowText([" \\C[0]Err... Well... I... Err... I Was Too Lazy To Make"])
+      ShowText([" The Full Game In One Go... Sorry. If You Want To"])
+      ShowText([" See This Game Completed Just Tell Me"])
+      Empty([])
+
+    When([2, "Are You A Real Person?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[6][Jordan]"])
+      ShowText([" \\C[0]What Kind Of Stupid Question Is That"])
+      ShowText([" Of Course I'm A Real Person!"])
+      ShowText([" I'm A Student At Tasker... My Name Is Jordan"])
+      Empty([])
+
+    When([3, "Nothing... Bye"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[6][Jordan]"])
+      ShowText([" \\C[0]Erm... Ok... Bye Then"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["There's A Note On This Broken Door:"])
+    ShowText([" "])
+    ShowText(["Sorry This Room Is Currently Unavailable In This"])
+    ShowText(["Version It Will Be Added Soon     -Jordan Robson"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["There's A Note On This Broken Door:"])
+    ShowText([" "])
+    ShowText(["Sorry This Room Is Currently Unavailable In This"])
+    ShowText(["Version It Will Be Added Soon     -Jordan Robson"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["There's A Note On This Broken Door:"])
+    ShowText([" "])
+    ShowText(["Sorry This Room Is Currently Unavailable In This"])
+    ShowText(["Version It Will Be Added Soon     -Jordan Robson"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["There's A Note On This Broken Door:"])
+    ShowText([" "])
+    ShowText(["Sorry This Room Is Currently Unavailable In This"])
+    ShowText(["Version It Will Be Added Soon     -Jordan Robson"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[13][Mary]"])
+    ShowText([" \\C[0]Hi! I'm Mary!"])
+    ShowChoices([["What Part Do You Have In This Team?", "Do You Personally Know The Dev?", "How Long Have You Been Doing What You Are Doing?", "Nothing... Bye"], 4])
+    When([0, "What Part Do You Have In This Team?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[13][Mary]"])
+      ShowText([" \\C[0]I came up with some questions and Jordan did the"])
+      ShowText([" rest"])
+      Empty([])
+
+    When([1, "Do You Personally Know The Dev?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[13][Mary]"])
+      ShowText([" \\C[0]Yes I do, I've known him for a few months...."])
+      Empty([])
+
+    When([2, "How Long Have You Been Doing What You Are Doing?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[13][Mary]"])
+      ShowText([" \\C[0]Not long.  I'm a teacher.  I teach English.  I'm"])
+      ShowText([" a beginner at computer games so Jordan helps me"])
+      ShowText([" with the questions.."])
+      Empty([])
+
+    When([3, "Nothing... Bye"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[13][Mary]"])
+      ShowText([" \\C[0]Alright then. Bye!"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Open1\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=37, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=37, @parameters=[])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=true, @wait=true, @list=[\"RPG::MoveCommand(@code=12, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=12, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 4, 8, 11, 0, 0])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3][Door 1 - Default] \\C[4]{Demo 1-9}"])
+    ShowText(["\\C[0]Look At The Sign In The Middle Of The Room. Then"])
+    ShowText(["Decide Which Door Is Correct By Looking At The Signs"])
+    ShowText(["In Front Of The Doors. Choose Wisely"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["It's A Mysterious Device. The Writing On It Reads:"])
+    ShowText([" "])
+    ShowText(["\\C[4]Pikakid98 Developer Panel"])
+    ShowText(["What Is It You Are After?"])
+    ShowChoices([["Report A Bug", "Previously Reported Bugs", "Credits", "Exit"], 4])
+    When([0, "Report A Bug"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["To Report A Bug"])
+      ShowText(["Simply Send An Email To The Developer"])
+      ShowText([" "])
+      ShowText(["\\C[3]Pikakid98@Gmail.com"])
+      Empty([])
+
+    When([1, "Previously Reported Bugs"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]No Bugs Have Been Reported Yet"])
+      ShowText(["We Appreciate Your Support"])
+      ShowText(["Found A Bug? Report It To Me"])
+      ShowText(["Don't Be Afraid To Report Bugs      -Jordan Robson"])
+      Empty([])
+
+    When([2, "Credits"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]The Following Game Is Property Of Jordan Robson"])
+      ShowText(["And Mary Faulder. Please Do Not Attempt To Alter Or"])
+      ShowText(["Modify The Game In Any Way, Thank You"])
+      ShowText(["                           \\C[6]©2016  Pikakid98 Studios"])
+      Empty([])
+
+    When([3, "Exit"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["It's A Mysterious Device. The Writing On It Reads:"])
+    ShowText([" "])
+    ShowText(["\\C[4]Pikakid98 Developer Panel"])
+    ShowText(["What Is It You Are After?"])
+    ShowChoices([["Report A Bug", "Previously Reported Bugs", "Credits", "Exit"], 4])
+    When([0, "Report A Bug"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["To Report A Bug"])
+      ShowText(["Simply Send An Email To The Developer"])
+      ShowText([" "])
+      ShowText(["\\C[3]Pikakid98@Gmail.com"])
+      Empty([])
+
+    When([1, "Previously Reported Bugs"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]No Bugs Have Been Reported Yet"])
+      ShowText(["We Appreciate Your Support"])
+      ShowText(["Found A Bug? Report It To Me"])
+      ShowText(["Don't Be Afraid To Report Bugs      -Jordan Robson"])
+      Empty([])
+
+    When([2, "Credits"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]The Following Game Is Property Of Jordan Robson"])
+      ShowText(["And Mary Faulder. Please Do Not Attempt To Alter Or"])
+      ShowText(["Modify The Game In Any Way, Thank You"])
+      ShowText(["                           \\C[6]©2016  Pikakid98 Studios"])
+      Empty([])
+
+    When([3, "Exit"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["It's A Mysterious Device. The Writing On It Reads:"])
+    ShowText([" "])
+    ShowText(["\\C[4]Pikakid98 Developer Panel"])
+    ShowText(["What Is It You Are After?"])
+    ShowChoices([["Report A Bug", "Previously Reported Bugs", "Credits", "Exit"], 4])
+    When([0, "Report A Bug"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["To Report A Bug"])
+      ShowText(["Simply Send An Email To The Developer"])
+      ShowText([" "])
+      ShowText(["\\C[3]Pikakid98@Gmail.com"])
+      Empty([])
+
+    When([1, "Previously Reported Bugs"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]No Bugs Have Been Reported Yet"])
+      ShowText(["We Appreciate Your Support"])
+      ShowText(["Found A Bug? Report It To Me"])
+      ShowText(["Don't Be Afraid To Report Bugs      -Jordan Robson"])
+      Empty([])
+
+    When([2, "Credits"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]The Following Game Is Property Of Jordan Robson"])
+      ShowText(["And Mary Faulder. Please Do Not Attempt To Alter Or"])
+      ShowText(["Modify The Game In Any Way, Thank You"])
+      ShowText(["                           \\C[6]©2016  Pikakid98 Studios"])
+      Empty([])
+
+    When([3, "Exit"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["It's A Mysterious Device. The Writing On It Reads:"])
+    ShowText([" "])
+    ShowText(["\\C[4]Pikakid98 Update Tracker"])
+    ShowChoices([["Alpha Updates", "Beta Updates {Currently Unavailable}", "Full Version Updates {Currently Unavailable}", "Exit"], 4])
+    When([0, "Alpha Updates"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["No Alpha Updates Have Been Registered"])
+      Empty([])
+
+    When([1, "Beta Updates {Currently Unavailable}"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]ERROR"])
+      Empty([])
+
+    When([2, "Full Version Updates {Currently Unavailable}"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]ERROR"])
+      Empty([])
+
+    When([3, "Exit"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["It's A Mysterious Device. The Writing On It Reads:"])
+    ShowText([" "])
+    ShowText(["\\C[4]Pikakid98 Update Tracker"])
+    ShowChoices([["Alpha Updates", "Beta Updates {Currently Unavailable}", "Full Version Updates {Currently Unavailable}", "Exit"], 4])
+    When([0, "Alpha Updates"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["No Alpha Updates Have Been Registered"])
+      Empty([])
+
+    When([1, "Beta Updates {Currently Unavailable}"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]ERROR"])
+      Empty([])
+
+    When([2, "Full Version Updates {Currently Unavailable}"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]ERROR"])
+      Empty([])
+
+    When([3, "Exit"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["It's A Mysterious Device. The Writing On It Reads:"])
+    ShowText([" "])
+    ShowText(["\\C[4]Pikakid98 Update Tracker"])
+    ShowChoices([["Alpha Updates", "Beta Updates {Currently Unavailable}", "Full Version Updates {Currently Unavailable}", "Exit"], 4])
+    When([0, "Alpha Updates"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["No Alpha Updates Have Been Registered"])
+      Empty([])
+
+    When([1, "Beta Updates {Currently Unavailable}"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]ERROR"])
+      Empty([])
+
+    When([2, "Full Version Updates {Currently Unavailable}"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[2]ERROR"])
+      Empty([])
+
+    When([3, "Exit"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3][Door 1 - Default] \\C[4]{Demo 1-9}"])
+    ShowText(["\\C[0]Look At The Sign In The Middle Of The Room. Then"])
+    ShowText(["Decide Which Door Is Correct By Looking At The Signs"])
+    ShowText(["In Front Of The Doors. Choose Wisely"])
+    Empty([])

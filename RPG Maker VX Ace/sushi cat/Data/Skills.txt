@@ -1,0 +1,7 @@
+Skill 1
+Message 1 = " attacks!"
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "Skill #1 will be used when you select\r\nthe Attack command."
+

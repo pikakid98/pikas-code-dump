@@ -1,0 +1,11 @@
+CommonEvent 10
+Name = "[LIST OF CHANGES]"
+
+  ControlSelfSwitch(["A", 0])
+  PlaySE(["RPG::SE(@name=\"Book1\", @pitch=100, @volume=80)"])
+  ShowTextAttributes(["", 0, 1, 1])
+  ShowText(["Changed the name from PCC Miner (idk what this is)"])
+  ShowText(["Fixed broken fortress door"])
+  PlaySE(["RPG::SE(@name=\"Cursor1\", @pitch=100, @volume=80)"])
+  ControlSelfSwitch(["A", 1])
+  Empty([])

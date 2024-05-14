@@ -1,0 +1,36 @@
+CommonEvent 2
+Name = "config"
+
+  ConditionalBranch([12, "File.exists?(\"secchan-winsize (640x480).scconf\")"])
+    Script(["Window_Resize.r(640, 480)"])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([12, "File.exists?(\"secchan-winsize (800x600).scconf\")"])
+    Script(["Window_Resize.r(800, 600)"])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([12, "File.exists?(\"secchan-winsize (1080x720).scconf\")"])
+    Script(["Window_Resize.r(1080, 720)"])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([12, "File.exists?(\"secchan-winsize (1280x760).scconf\")"])
+    Script(["Window_Resize.r(1280, 760)"])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

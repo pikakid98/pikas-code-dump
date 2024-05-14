@@ -1,0 +1,24 @@
+Enemy 1
+Battler Name = "Slime"
+Name = "Slime"
+Description = nil
+Note = ""
+
+Enemy 2
+Battler Name = "Bat"
+Name = "Bat"
+Description = nil
+Note = ""
+
+Enemy 3
+Battler Name = "Hornet"
+Name = "Hornet"
+Description = nil
+Note = ""
+
+Enemy 4
+Battler Name = "Earthspirit"
+Name = "Forest Guardian"
+Description = ""
+Note = ""
+

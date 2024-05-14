@@ -1,0 +1,8 @@
+Actor 1
+Nickname = ""
+Character Name = "Animal"
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+

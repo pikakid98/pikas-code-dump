@@ -1,0 +1,37 @@
+Display Name = "World Map"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Enter The Shop Area?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      TransferPlayer([0, 2, 10, 16, 0, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Enter The Desert?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      TransferPlayer([0, 3, 1, 1, 2, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])

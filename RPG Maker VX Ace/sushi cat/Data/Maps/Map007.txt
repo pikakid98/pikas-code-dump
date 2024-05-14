@@ -1,0 +1,50 @@
+Display Name = ""
+Parallax Name = "armorgameslogo"
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=15, @parameters=[80])\", \"RPG::MoveCommand(@code=37, @parameters=[])\", \"RPG::MoveCommand(@code=40, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[80])"])
+    Unnamed(["RPG::MoveCommand(@code=37, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=40, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    TransferPlayer([0, 8, 12, 6, 0, 2])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])

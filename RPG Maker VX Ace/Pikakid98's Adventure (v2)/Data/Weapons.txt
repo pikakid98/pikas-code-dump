@@ -1,0 +1,25 @@
+Weapon 1
+Name = "Destiny's Blade"
+Description = "Jordan's Favourite Sword. It's Quite Powerful Too\r\n[Cannot Be Unequipped]"
+Note = ""
+
+Weapon 2
+Name = "Sword"
+Description = "+20 Attack"
+Note = ""
+
+Weapon 3
+Name = "Club"
+Description = "+29 Attack"
+Note = ""
+
+Weapon 4
+Name = "Magic Staff"
+Description = "-3 Attack And +30 Magic Attack"
+Note = ""
+
+Weapon 5
+Name = "Long Bow"
+Description = "+30 Attack, +19 Agility And +30 Luck"
+Note = ""
+

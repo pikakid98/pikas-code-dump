@@ -1,0 +1,16 @@
+Actor 1
+Nickname = ""
+Character Name = "aleaxander and pika sprite 1"
+Face Name = ""
+Name = "Jordan"
+Description = ""
+Note = ""
+
+Actor 2
+Nickname = ""
+Character Name = "$BigMonster1"
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+

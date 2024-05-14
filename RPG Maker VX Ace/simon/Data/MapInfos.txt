@@ -1,0 +1,6 @@
+MapInfo 1
+Name = "don't use this map but copy the blank map"
+
+MapInfo 2
+Name = ""
+

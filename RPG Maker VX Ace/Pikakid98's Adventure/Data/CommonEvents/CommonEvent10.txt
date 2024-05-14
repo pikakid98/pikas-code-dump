@@ -1,0 +1,17 @@
+CommonEvent 10
+Name = "[LIST OF CHANGES]"
+
+  ControlSelfSwitch(["A", 0])
+  PlaySE(["RPG::SE(@name=\"Book1\", @pitch=100, @volume=80)"])
+  ShowTextAttributes(["", 0, 1, 1])
+  ShowText(["Made the Shop's ground walkable \\}-_-\\{"])
+  ShowText(["Replaced internal coin name with \\C[3]Special\\C[0]\\}(3 instances)\\{"])
+  ShowText(["Removed references to a missing file (Crash)"])
+  ShowText(["Changed HRG\\}(Health regen)\\{ from -1 to +1 \\}(uuuuuuuuuugh)"])
+  ShowTextAttributes(["", 0, 1, 1])
+  ShowText(["Fixed the world map.. now it wooooorks... AAAARGH!!!"])
+  ShowText(["Removed unused music"])
+  ShowText(["Toned the menu brightness down"])
+  PlaySE(["RPG::SE(@name=\"Cursor1\", @pitch=100, @volume=80)"])
+  ControlSelfSwitch(["A", 1])
+  Empty([])

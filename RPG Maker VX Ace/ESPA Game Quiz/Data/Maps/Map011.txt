@@ -1,0 +1,119 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Wait([3])
+    TintPicture([1, "Tone(@red=255.0, @green=-255.0, @blue=-255.0, @gray=0.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Blow2\", @pitch=100, @volume=80)"])
+    GameOver([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Question 8:"])
+    ShowText(["What Is The Name Of The Online Virtual World Created"])
+    ShowText(["By Linden Labs?"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Question 8:"])
+    ShowText(["What Is The Name Of The Online Virtual World Created"])
+    ShowText(["By Linden Labs?"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Question 8:"])
+    ShowText(["What Is The Name Of The Online Virtual World Created"])
+    ShowText(["By Linden Labs?"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Question 8:"])
+    ShowText(["What Is The Name Of The Online Virtual World Created"])
+    ShowText(["By Linden Labs?"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Wait([3])
+    TintPicture([1, "Tone(@red=255.0, @green=-255.0, @blue=-255.0, @gray=0.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Blow2\", @pitch=100, @volume=80)"])
+    GameOver([])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Wait([3])
+    TransferPlayer([0, 12, 8, 11, 0, 0])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Second Life"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Second Life"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Another World"])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Another World"])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Crazy Life"])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Crazy Life"])
+    Empty([])

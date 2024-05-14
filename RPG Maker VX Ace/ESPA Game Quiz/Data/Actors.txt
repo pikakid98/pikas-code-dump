@@ -1,0 +1,16 @@
+Actor 1
+Nickname = ""
+Character Name = "Actor2"
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 2
+Nickname = ""
+Character Name = "Actor2"
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+

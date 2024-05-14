@@ -1,0 +1,5 @@
+Weapon 1
+Name = "Hand Ax"
+Description = "Small ax used for harvesting wood."
+Note = ""
+

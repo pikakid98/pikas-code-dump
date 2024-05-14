@@ -1,0 +1,6 @@
+Enemy 1
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+

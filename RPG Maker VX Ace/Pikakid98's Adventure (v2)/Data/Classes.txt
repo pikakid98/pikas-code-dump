@@ -1,0 +1,15 @@
+Class 1
+Name = "Human"
+Description = ""
+Note = ""
+
+Class 2
+Name = "Evil Clone"
+Description = ""
+Note = ""
+
+Class 3
+Name = "Robot"
+Description = ""
+Note = ""
+

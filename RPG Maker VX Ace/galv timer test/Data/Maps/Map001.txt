@@ -1,0 +1,26 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ConditionalBranch([12, "daily_bonus_available?"])
+      PlaySE(["RPG::SE(@name=\"Coin\", @pitch=100, @volume=80)"])
+      ChangeGold([0, 0, 200])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["Gained 200 Gold"])
+      ShowText([" "])
+      ShowText(["Come Back Tomorrow For Another 200 Gold"])
+      ControlVariables([1, 1, 1, 0, 1])
+      Script(["update_bonus_time"])
+      Empty([])
+
+    Else([])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["Come Back Tomorrow For Another 200 Gold"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])

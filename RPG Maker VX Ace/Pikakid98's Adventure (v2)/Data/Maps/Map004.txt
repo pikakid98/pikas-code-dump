@@ -1,0 +1,64 @@
+Display Name = "Pika Space"
+Parallax Name = "StarlitSky"
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ChangePlayerFollowers([0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    FadeoutScreen([])
+    PlaySE(["RPG::SE(@name=\"Jump1\", @pitch=100, @volume=80)"])
+    Wait([20])
+    PlaySE(["RPG::SE(@name=\"Fall\", @pitch=100, @volume=80)"])
+    Wait([20])
+    PlaySE(["RPG::SE(@name=\"Flash2\", @pitch=100, @volume=80)"])
+    FadeinScreen([])
+    TransferPlayer([0, 6, 8, 7, 2, 1])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    FadeoutScreen([])
+    PlaySE(["RPG::SE(@name=\"Jump1\", @pitch=100, @volume=80)"])
+    Wait([20])
+    PlaySE(["RPG::SE(@name=\"Fall\", @pitch=100, @volume=80)"])
+    Wait([20])
+    PlaySE(["RPG::SE(@name=\"Flash2\", @pitch=100, @volume=80)"])
+    FadeinScreen([])
+    TransferPlayer([0, 6, 8, 7, 2, 1])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    FadeoutScreen([])
+    PlaySE(["RPG::SE(@name=\"Jump1\", @pitch=100, @volume=80)"])
+    Wait([20])
+    PlaySE(["RPG::SE(@name=\"Fall\", @pitch=100, @volume=80)"])
+    Wait([20])
+    PlaySE(["RPG::SE(@name=\"Flash2\", @pitch=100, @volume=80)"])
+    FadeinScreen([])
+    TransferPlayer([0, 6, 8, 7, 2, 1])
+    Empty([])

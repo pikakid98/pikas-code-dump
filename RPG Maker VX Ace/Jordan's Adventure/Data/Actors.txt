@@ -1,0 +1,32 @@
+Actor 1
+Nickname = "Pikakid98"
+Character Name = "Jordan"
+Face Name = ""
+Name = "Jordan"
+Description = "A Youtuber From Britain Who Loves Youtubing,\r\nPlaying Games And Even Making Games"
+Note = ""
+
+Actor 2
+Nickname = ""
+Character Name = "Custom Edited - The Legend of Zelda Customs - Midna"
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 3
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 4
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+

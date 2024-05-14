@@ -1,0 +1,10 @@
+State 1
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+

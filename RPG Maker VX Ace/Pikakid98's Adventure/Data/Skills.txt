@@ -1,0 +1,70 @@
+Skill 1
+Message 1 = " attacks!"
+Message 2 = ""
+Name = "Attack"
+Description = "Damages the enemy."
+Note = "Skill #1 will be used when you select\r\nthe Attack command."
+
+Skill 2
+Message 1 = " guards."
+Message 2 = ""
+Name = "Guard"
+Description = "Protects user and reduces damage taken."
+Note = "Skill #2 will be used when you select\r\nthe Guard command."
+
+Skill 3
+Message 1 = " uses Epic Slash!"
+Message 2 = ""
+Name = "Epic Slash"
+Description = "The User Slashes With A Large Amount Of Force\r\nHits One Enemy"
+Note = ""
+
+Skill 4
+Message 1 = " casts Twilight Massacre!"
+Message 2 = ""
+Name = "Twilight Massacre"
+Description = "The User Drains The Enemy For Up To 5 Turns"
+Note = ""
+
+Skill 5
+Message 1 = " casts Posession!"
+Message 2 = ""
+Name = "Posession"
+Description = "The User Takes Control Of An Enemy And Uses It\r\nTo Attack Other Enemies"
+Note = ""
+
+Skill 6
+Message 1 = " casts Mass Heal!"
+Message 2 = ""
+Name = "Mass Heal"
+Description = "Heals All Allies"
+Note = ""
+
+Skill 7
+Message 1 = ""
+Message 2 = ""
+Name = "System Error"
+Description = "Creates A Powerful Glitch That Tears Through\r\nEnemies"
+Note = ""
+
+Skill 8
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 9
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 10
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+

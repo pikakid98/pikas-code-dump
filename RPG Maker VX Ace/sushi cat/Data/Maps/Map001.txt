@@ -1,0 +1,38 @@
+Display Name = ""
+Parallax Name = "sc1"
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Launch \\C[2]Sushi Cat\\C[0]?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      Script(["system(\"Sushi Cat.exe\",\"Sushi Cat.swf\")"])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    TransferPlayer([0, 2, 7, 12, 0, 2])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=29, @parameters=[4])\", \"RPG::MoveCommand(@code=30, @parameters=[3])\", \"RPG::MoveCommand(@code=38, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=29, @parameters=[4])"])
+    Unnamed(["RPG::MoveCommand(@code=30, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=38, @parameters=[])"])
+    Empty([])

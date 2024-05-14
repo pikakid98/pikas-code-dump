@@ -1,0 +1,5 @@
+CommonEvent 1
+Name = "World Map"
+
+  TransferPlayer([0, 8, 2, 11, 0, 0])
+  Empty([])

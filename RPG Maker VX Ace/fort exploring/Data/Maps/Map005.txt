@@ -1,0 +1,28 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["You Just Walk On Right In Like This Laptop And It's"])
+    ShowText(["Contents Are Yours. The Coins... They Belong To Me"])
+    ShowText(["And Only Me.. You Never Buy Anything.. NEVER.."])
+    ShowText(["And Now."])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle3\", @volume=100, @pitch=150)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    TransferPlayer([0, 18, 28, 19, 8, 2])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Absorb2\", @pitch=100, @volume=80)"])
+    RecoverAll([0, 0])
+    Empty([])

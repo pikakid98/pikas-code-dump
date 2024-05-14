@@ -1,0 +1,13 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ControlVariables([1, 1, 1, 0, 1])
+    Script(["txt_save(\"ewrwerw\", \"filename\")"])
+    ScriptMore([""])
+    ScriptMore(["txt_save(\"DOC1\", \"Filename.txt\")"])
+    Empty([])

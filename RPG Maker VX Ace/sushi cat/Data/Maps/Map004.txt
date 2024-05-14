@@ -1,0 +1,34 @@
+Display Name = ""
+Parallax Name = "scth"
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Launch \\C[2]Sushi Cat The Honeymoon\\C[0]?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      Script(["system(\"Sushi Cat The Honeymoon.exe\",\"Sushi Cat The Honeymoon.swf\")"])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    TransferPlayer([0, 3, 8, 12, 0, 2])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    TransferPlayer([0, 5, 10, 12, 0, 2])
+    Empty([])

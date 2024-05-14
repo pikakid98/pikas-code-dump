@@ -1,0 +1,80 @@
+Actor 1
+Nickname = ""
+Character Name = "!Other1"
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 2
+Nickname = "Thunder Fist"
+Character Name = "Actor4"
+Face Name = "Actor4"
+Name = "Natalie"
+Description = "Her father is a master assassin. Throughout her\r\nyouth, she mastered the techniques of fighting."
+Note = ""
+
+Actor 3
+Nickname = "Wandering Paladin"
+Character Name = "Actor4"
+Face Name = "Actor4"
+Name = "Terence"
+Description = "Stripped of his status. He wanders around protecting\r\nothers and stays true to his code of honour."
+Note = ""
+
+Actor 4
+Nickname = "Magic Swordsman"
+Character Name = "Actor4"
+Face Name = "Actor4"
+Name = "Ernest"
+Description = "A wandering swordsman looking for his master.\r\nHe is one who has mastered the Magic Sword."
+Note = ""
+
+Actor 5
+Nickname = "Dawn's Edge"
+Character Name = "Actor4"
+Face Name = "Actor4"
+Name = "Ryoma"
+Description = "He is the current owner of Takeshi's blade. His\r\nmovements are fluid and sharp like a knife."
+Note = ""
+
+Actor 6
+Nickname = "Dark Green Aim"
+Character Name = "Actor5"
+Face Name = "Actor5"
+Name = "Brenda"
+Description = "A girl who's brought up by forest spirits. She loves\r\nnature and protects the forest from disturbance."
+Note = ""
+
+Actor 7
+Nickname = "Formless Wind"
+Character Name = "Actor5"
+Face Name = "Actor5"
+Name = "Rick"
+Description = "His youth is bound by hatred. He acts like a \r\nwise-crack due to his life."
+Note = ""
+
+Actor 8
+Nickname = "Saviour of Joan"
+Character Name = "Actor5"
+Face Name = "Actor5"
+Name = "Alice"
+Description = "A woman whose destiny was to become a saint. She\r\nis full of passion and gives equal love to the enemy."
+Note = ""
+
+Actor 9
+Nickname = "Graceful Nightmare"
+Character Name = "Actor5"
+Face Name = "Actor5"
+Name = "Isabelle"
+Description = "A witch who delivered fear to mankind. But through a\r\nfailed reincarnation, she has lost her memory."
+Note = ""
+
+Actor 10
+Nickname = "Star Seer"
+Character Name = "Actor5"
+Face Name = "Actor5"
+Name = "Noah"
+Description = "A hermit who avoids the populace by living in the\r\nmountains. He seeks the true identity of the evil star."
+Note = ""
+

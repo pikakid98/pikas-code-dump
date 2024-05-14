@@ -1,0 +1,8 @@
+Actor 1
+Nickname = ""
+Character Name = "Actor4"
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+

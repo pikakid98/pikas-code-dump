@@ -1,0 +1,1 @@
+"%AHK%\Compiler\Ahk2Exe.exe" /in "Minecraft.ahk" /out "Output\Minecraft Launcher.exe" /icon "icon.ico" /compress 2 /base "%AHK%\v2\AutoHotkey64.exe"

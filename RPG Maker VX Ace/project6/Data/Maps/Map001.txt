@@ -1,0 +1,14 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Script(["$Username = ENV['USERNAME']"])
+    ControlVariables([1, 1, 0, 4, "$Username = ENV['USERNAME']"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["hello, \\V[1]"])
+    Script(["msgbox(\"hello, \\V[1]\")"])
+    Empty([])

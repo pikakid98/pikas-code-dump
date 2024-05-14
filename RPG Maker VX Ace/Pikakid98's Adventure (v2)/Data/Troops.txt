@@ -1,0 +1,23 @@
+Troop 1
+Name = "Slime*2"
+
+Page 0
+  Empty([])
+
+Troop 2
+Name = "Bat*2"
+
+Page 0
+  Empty([])
+
+Troop 3
+Name = "Hornet*2"
+
+Page 0
+  Empty([])
+
+Troop 4
+Name = "Forest Guardian"
+
+Page 0
+  Empty([])

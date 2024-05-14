@@ -1,0 +1,24 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=35, @parameters=[])\", \"RPG::MoveCommand(@code=41, @parameters=[\\\"$BigMonster1\\\", 0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=35, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=41, @parameters=[\"$BigMonster1\", 0])"])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 1, 15, 34, 8, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    CallCommonEvent([10])
+    Empty([])
+
+  Page 1
+    Empty([])

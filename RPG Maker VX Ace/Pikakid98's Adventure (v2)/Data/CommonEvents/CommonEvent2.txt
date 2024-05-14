@@ -1,0 +1,5 @@
+CommonEvent 2
+Name = "Leader"
+
+  ChangeState([0, 1, 0, 26])
+  Empty([])

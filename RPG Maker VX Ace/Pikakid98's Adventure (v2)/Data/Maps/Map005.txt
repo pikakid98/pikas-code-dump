@@ -1,0 +1,135 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ConditionalBranch([4, 2, 0])
+      ConditionalBranch([4, 3, 0])
+        ConditionalBranch([4, 4, 0])
+          TransferPlayer([0, 4, 10, 9, 0, 0])
+          Empty([])
+        Else([])
+          ShowTextAttributes(["", 0, 0, 2])
+          ShowText(["\\C[3]Jordan"])
+          ShowText(["\\C[0] No. Not Yet. I Need My Friends"])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["\\C[3]Jordan"])
+        ShowText(["\\C[0] No. Not Yet. I Need My Friends"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[3]Jordan"])
+      ShowText(["\\C[0] No. Not Yet. I Need My Friends"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Jordan"])
+    ShowText(["\\C[0] Should I Go Back To Sleep?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      ReturnToTitleScreen([])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Jordan"])
+    ShowText(["\\C[0] That's Harvey's Room"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Jordan"])
+    ShowText(["\\C[0] That's Lana's Room"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Jordan"])
+    ShowText(["\\C[0] That's Evolle's Room"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Jordan"])
+    ShowText(["\\C[0] That's Candice's Room"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Lana"])
+    ShowText(["\\C[0] I'll See You Outside"])
+    ChangePartyMember([4, 0, 0])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Evolle"])
+    ShowText(["\\C[0] I'm Coming! I'm Coming"])
+    ChangePartyMember([2, 0, 0])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Harvey"])
+    ShowText(["\\C[0] Good Luck, You Lot"])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Candice"])
+    ShowText(["\\C[0] Don't Worry, Jordan. I'll Be There Shortly"])
+    ChangePartyMember([3, 0, 0])
+    Empty([])

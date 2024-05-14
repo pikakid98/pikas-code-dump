@@ -1,0 +1,80 @@
+Item 1
+Name = "Potion"
+Description = "Recovers 500 HP."
+Note = ""
+
+Item 2
+Name = "Hi-Potion"
+Description = "Recovers 2,500 HP."
+Note = ""
+
+Item 3
+Name = "Full Potion"
+Description = "Recovers all HP."
+Note = ""
+
+Item 4
+Name = "Magic Water"
+Description = "Recovers 200 MP."
+Note = ""
+
+Item 5
+Name = "Stimulant"
+Description = "Recovers ally from death."
+Note = ""
+
+Item 6
+Name = "Antidote"
+Description = "Treats poison."
+Note = ""
+
+Item 7
+Name = "Dispel Herb"
+Description = "Treats many status ailments."
+Note = ""
+
+Item 8
+Name = "Elixir"
+Description = "Restores all HP and MP."
+Note = ""
+
+Item 9
+Name = "Life Up"
+Description = "Increases MaxHP by 50."
+Note = ""
+
+Item 10
+Name = "Mana Up"
+Description = "Increases MaxMP by 10."
+Note = ""
+
+Item 11
+Name = "Power Up"
+Description = "Increases ATK by 3."
+Note = ""
+
+Item 12
+Name = "Guard Up"
+Description = "Increases DEF by 3."
+Note = ""
+
+Item 13
+Name = "Magic Up"
+Description = "Increases MAT by 3."
+Note = ""
+
+Item 14
+Name = "Resist Up"
+Description = "Increases MDF by 3."
+Note = ""
+
+Item 15
+Name = "Speed Up"
+Description = "Increases AGI by 3."
+Note = ""
+
+Item 16
+Name = "Luck Up"
+Description = "Increases LUK by 3."
+Note = ""
+

@@ -1,0 +1,16 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 2, 1])
+    ShowText(["Sorry This Is The End Of The Demo"])
+    ShowText(["If You Want To See This Game As A Full Game"])
+    ShowText(["Make Sure To Email The Developer"])
+    ShowText(["\\C[3]Pikakid98@Gmail.com"])
+    ReturnToTitleScreen([])
+    Empty([])

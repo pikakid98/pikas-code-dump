@@ -1,0 +1,8 @@
+Actor 1
+Nickname = ""
+Character Name = "Monster2"
+Face Name = ""
+Name = "Candice"
+Description = ""
+Note = ""
+

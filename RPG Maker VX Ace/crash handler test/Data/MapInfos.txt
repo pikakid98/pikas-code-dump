@@ -1,0 +1,6 @@
+MapInfo 1
+Name = "MAP001"
+
+MapInfo 2
+Name = "crash test"
+

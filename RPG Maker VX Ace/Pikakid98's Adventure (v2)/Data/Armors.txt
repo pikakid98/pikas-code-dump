@@ -1,0 +1,80 @@
+Armor 1
+Name = "Chest Mounted Shield"
+Description = "+3 Defence"
+Note = ""
+
+Armor 2
+Name = "Padded Tunic"
+Description = "+7 Defence"
+Note = ""
+
+Armor 3
+Name = "Thin Armour"
+Description = "+10 Defence"
+Note = ""
+
+Armor 4
+Name = "Thin Black Armour"
+Description = "+14 Defence"
+Note = ""
+
+Armor 5
+Name = "Thick Metal Armour"
+Description = "+19 Defence"
+Note = ""
+
+Armor 6
+Name = "Thick Guilded Metal Armour"
+Description = "+23 Defence"
+Note = ""
+
+Armor 7
+Name = "Hardened Armour"
+Description = "+40 Defence"
+Note = ""
+
+Armor 8
+Name = "Wooden Shield"
+Description = "+20 Defence"
+Note = ""
+
+Armor 9
+Name = "Iron Shield"
+Description = "+40 Defence"
+Note = ""
+
+Armor 10
+Name = "Sacred Shield"
+Description = "+60 Defence\r\nHas A High Chance To Blind An Enemy"
+Note = ""
+
+Armor 11
+Name = "The Bronze Star"
+Description = "+30 HP And +30 MP"
+Note = ""
+
+Armor 12
+Name = "The Sliver Star"
+Description = "+50 HP And +50 MP"
+Note = ""
+
+Armor 13
+Name = "The Gold Star"
+Description = "+70 HP And +70 MP"
+Note = ""
+
+Armor 14
+Name = "Lucky Hat"
+Description = "+20 Luck"
+Note = ""
+
+Armor 15
+Name = "Lucky Hard Hat"
+Description = "+50 Luck"
+Note = ""
+
+Armor 16
+Name = "Lucky Helmet"
+Description = "+100 Luck"
+Note = ""
+

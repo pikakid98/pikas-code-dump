@@ -1,0 +1,29 @@
+Troop 1
+Name = "Slime"
+
+Page 0
+  Empty([])
+
+Troop 2
+Name = "Slime 2"
+
+Page 0
+  Empty([])
+
+Troop 3
+Name = "Slime 3"
+
+Page 0
+  Empty([])
+
+Troop 4
+Name = "Slime 4"
+
+Page 0
+  Empty([])
+
+Troop 5
+Name = "Slime 5"
+
+Page 0
+  Empty([])

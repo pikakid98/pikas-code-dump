@@ -1,0 +1,84 @@
+Enemy 1
+Battler Name = "Slime"
+Name = "Slime"
+Description = nil
+Note = ""
+
+Enemy 2
+Battler Name = "Bat"
+Name = "Bat"
+Description = nil
+Note = ""
+
+Enemy 3
+Battler Name = "Hornet"
+Name = "Hornet"
+Description = nil
+Note = ""
+
+Enemy 4
+Battler Name = "Spider"
+Name = "Spider"
+Description = nil
+Note = ""
+
+Enemy 5
+Battler Name = "Rat"
+Name = "Rate"
+Description = nil
+Note = ""
+
+Enemy 6
+Battler Name = "Willowisp"
+Name = "Wisp"
+Description = nil
+Note = ""
+
+Enemy 7
+Battler Name = "Snake"
+Name = "Large Snake"
+Description = nil
+Note = ""
+
+Enemy 8
+Battler Name = "Firespirit"
+Name = "Firespirit"
+Description = nil
+Note = ""
+
+Enemy 9
+Battler Name = "Gayzer"
+Name = "Swampspirit"
+Description = nil
+Note = ""
+
+Enemy 10
+Battler Name = "Earthspirit"
+Name = "Earthspirit"
+Description = nil
+Note = ""
+
+Enemy 11
+Battler Name = "Gargoyle"
+Name = "Desertspirit"
+Description = nil
+Note = ""
+
+Enemy 12
+Battler Name = "Icelady"
+Name = "Icespirit"
+Description = nil
+Note = ""
+
+Enemy 13
+Battler Name = "Minotaur"
+Name = "Cavespirit"
+Description = nil
+Note = ""
+
+Enemy 14
+Battler Name = "Angel"
+Name = ""
+Description = nil
+Note = ""
+

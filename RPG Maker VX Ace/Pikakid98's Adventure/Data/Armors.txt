@@ -1,0 +1,25 @@
+Armor 1
+Name = "Common Monster Soul"
+Description = ""
+Note = ""
+
+Armor 2
+Name = "Uncommon Monster Soul"
+Description = ""
+Note = ""
+
+Armor 3
+Name = "Rare Monster Soul"
+Description = ""
+Note = ""
+
+Armor 4
+Name = "Very Rare Monster Soul"
+Description = ""
+Note = ""
+
+Armor 5
+Name = "Legendary Monster Soul"
+Description = ""
+Note = ""
+

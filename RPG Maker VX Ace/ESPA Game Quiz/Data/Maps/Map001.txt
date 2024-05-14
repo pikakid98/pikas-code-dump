@@ -1,0 +1,53 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Hello And Welcome To Mary Faulder's Game Quiz"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["I Am Jordan"])
+    ShowText(["The Developer And Owner Of A Small Independent"])
+    ShowText(["Video Game Company Known As Pikakid98 Studios"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["The Following Build Of This Game Is:"])
+    ShowText([" "])
+    ShowText(["0.1 Alpha"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["But Enough About Me And The Game"])
+    ShowText(["Let's Get To Know You"])
+    ShowText([" "])
+    ShowText(["What Is Your Gender"])
+    ShowChoices([["Male", "Female"], 0])
+    When([0, "Male"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["Ah So You're A Male"])
+      ShowText([" "])
+      ShowText(["And Your Name?"])
+      NameInputProcessing([1, 10])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["So You Are Male And Your Name Is \\N[0001]"])
+      FadeinScreen([])
+      TransferPlayer([0, 2, 1, 10, 0, 2])
+      Empty([])
+
+    When([1, "Female"])
+      ChangePartyMember([1, 1, 0])
+      ChangePartyMember([2, 0, 1])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["Ah So You're A Female"])
+      ShowText([" "])
+      ShowText(["And Your Name?"])
+      NameInputProcessing([2, 10])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["So You Are Female And Your Name Is \\N[0002]"])
+      FadeinScreen([])
+      TransferPlayer([0, 3, 1, 10, 0, 2])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])

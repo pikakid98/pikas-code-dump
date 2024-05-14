@@ -1,0 +1,24 @@
+MapInfo 1
+Name = "Sushi Cat"
+
+MapInfo 2
+Name = "Sushi Cat 2"
+
+MapInfo 3
+Name = "Sushi Cat 2 The Great Purrade"
+
+MapInfo 4
+Name = "Sushi Cat The Honeymoon"
+
+MapInfo 5
+Name = "Sushi Cat-A-Pult"
+
+MapInfo 6
+Name = "Title"
+
+MapInfo 7
+Name = "Title 2"
+
+MapInfo 8
+Name = "Title 3"
+

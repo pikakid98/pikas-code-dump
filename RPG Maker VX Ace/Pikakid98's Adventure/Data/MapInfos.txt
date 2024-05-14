@@ -1,0 +1,9 @@
+MapInfo 1
+Name = "World Map"
+
+MapInfo 2
+Name = "Shop Area"
+
+MapInfo 3
+Name = "Desert"
+

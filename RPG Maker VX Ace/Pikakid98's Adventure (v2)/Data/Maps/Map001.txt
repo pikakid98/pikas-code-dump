@@ -1,0 +1,167 @@
+Display Name = "The Shop"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Monsita"])
+    ShowText(["\\C[0] MONSANO TELL OF HUMAN'S ARRIVAL!!"])
+    ShowText([" WELCOME TO MONSITA SHOP!!!"])
+    ConditionalBranch([8, 18])
+      ShopProcessing([0, 1, 0, 0, false])
+      ShopItem([0, 2, 0, 0])
+      ShopItem([0, 3, 0, 0])
+      ShopItem([0, 4, 0, 0])
+      ShopItem([0, 5, 0, 0])
+      ShopItem([0, 6, 0, 0])
+      ShopItem([0, 7, 0, 0])
+      ShopItem([0, 8, 0, 0])
+      Empty([])
+
+    Else([])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[3]Monsita"])
+      ShowText(["\\C[0] WAIT!! MONSITA SEE HUMAN HAS NO WORLD MAP!!"])
+      ShowText([" MONSITA MAKE ONE FOR HUMANS!!! MAYBE THEN"])
+      ShowText([" HUMANS WILL BUY ITEMS!!!"])
+      ChangeItems([18, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Imp"])
+    ShowText(["\\C[0] The Misstress Told Me I Have To Sell Weapons"])
+    ShowText([" I Must Do What She Says Or She'll Kill Me"])
+    ShowText([" Please Buy Something"])
+    ShopProcessing([1, 3, 1, 300, false])
+    ShopItem([1, 4, 1, 320])
+    ShopItem([1, 5, 1, 350])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ChangeState([0, 1, 0, 26])
+    ChangePlayerFollowers([1])
+    ChangeBattleBack(["", ""])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Bat"])
+    ShowText(["\\C[0] Mishtwesh Make Bat Shell Itemsh. Otherwishe"])
+    ShowText([" Mistwesh Kill Ush."])
+    ShowText([" Bat Shellsh Armoursh And Shieldsh"])
+    ShopProcessing([2, 1, 1, 100, false])
+    ShopItem([2, 2, 1, 200])
+    ShopItem([2, 3, 1, 300])
+    ShopItem([2, 4, 1, 400])
+    ShopItem([2, 5, 1, 500])
+    ShopItem([2, 6, 1, 600])
+    ShopItem([2, 7, 1, 700])
+    ShopItem([2, 8, 1, 50])
+    ShopItem([2, 9, 1, 100])
+    ShopItem([2, 10, 1, 500])
+    ShopItem([2, 11, 1, 100])
+    ShopItem([2, 12, 1, 200])
+    ShopItem([2, 13, 1, 300])
+    ShopItem([2, 14, 1, 50])
+    ShopItem([2, 15, 1, 180])
+    ShopItem([2, 16, 1, 300])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Nurse"])
+    ShowText(["\\C[0] Hello Dear. I Can Heal You For Just"])
+    ShowText([" 20 Seeds. What Do You Say?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      ConditionalBranch([7, 19, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["\\C[3]Nurse"])
+        ShowText(["\\C[0] Sorry, Dear. You Haven't Got Enough Seeds"])
+        Empty([])
+      Else([])
+        FadeoutScreen([])
+        PlayME(["RPG::ME(@name=\"Inn\", @pitch=150, @volume=100)"])
+        RecoverAll([0, 0])
+        Wait([60])
+        FadeinScreen([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["\\C[3]Nurse"])
+        ShowText(["\\C[0] I Hope You Enjoyed Your Rest"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "No"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[3]Nurse"])
+      ShowText(["\\C[0] Very Well Then, Dear. Come Back When You Are"])
+      ShowText([" Injured"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Candice"])
+    ShowText(["\\C[0] I Can Convert Your Seeds Into \\C[3]Special\\C[0] Coin"])
+    ShowText([" Stacks"])
+    ShopProcessing([0, 17, 1, 200, true])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ConditionalBranch([8, 17])
+      ChangeActorGraphic([1, "", 0, "", 0])
+      TransferPlayer([0, 7, 9, 7, 0, 0])
+      Empty([])
+
+    Else([])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[3]Evolle"])
+      ShowText(["\\C[0] Bring Me Stacks Of \\C[3]Special\\C[0] Coins And I'll Transfer"])
+      ShowText([" Them Back To Harvey In A Flash"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Lana"])
+    ShowText(["\\C[0] Sorry. I Can't Help You. But Candice And Evolle Can"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    Empty([])

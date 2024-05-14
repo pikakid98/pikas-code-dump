@@ -1,0 +1,29 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Script(["$game_variables[1] = $Username"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\V[1]"])
+    ConditionalBranch([12, "File.exists?(\"Save.rvdata2\")"])
+      TintScreen(["Tone(@red=-255.0, @green=-255.0, @blue=-255.0, @gray=0.0)", 1, false])
+      TransferPlayer([0, 2, 2, 9, 0, 2])
+      Wait([60])
+      Script(["DataManager.load_game(0)"])
+      FadeinScreen([])
+      PlaySE(["RPG::SE(@name=\"Flash1\", @pitch=100, @volume=80)"])
+      FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=255.0)", 60, false])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 30, false])
+      ChangeTransparency([1])
+      Empty([])
+
+    Else([])
+      ReturnToTitleScreen([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])

@@ -1,0 +1,128 @@
+Display Name = "Meanwhile Back At Pika Space"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ConditionalBranch([4, 2, 0])
+      ConditionalBranch([4, 3, 0])
+        ConditionalBranch([4, 4, 0])
+          TransferPlayer([0, 4, 10, 9, 0, 0])
+          Empty([])
+        Else([])
+          ShowTextAttributes(["", 0, 0, 2])
+          ShowText(["\\C[3]Jordan"])
+          ShowText(["\\C[0] No. Not Yet. I Need My Friends"])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["\\C[3]Jordan"])
+        ShowText(["\\C[0] No. Not Yet. I Need My Friends"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[3]Jordan"])
+      ShowText(["\\C[0] No. Not Yet. I Need My Friends"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Jordan"])
+    ShowText(["\\C[0] Should I Go Back To Sleep?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      ReturnToTitleScreen([])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Jordan"])
+    ShowText(["\\C[0] That's Harvey's Room"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Jordan"])
+    ShowText(["\\C[0] That's Lana's Room"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Jordan"])
+    ShowText(["\\C[0] That's Evolle's Room"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Jordan"])
+    ShowText(["\\C[0] That's Candice's Room"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Coin\", @pitch=100, @volume=80)"])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([0, 1, false])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    Wait([60])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    ChangeActorGraphic([1, "Jordan", 0, "", 0])
+    TransferPlayer([0, 1, 5, 12, 4, 0])
+    Empty([])

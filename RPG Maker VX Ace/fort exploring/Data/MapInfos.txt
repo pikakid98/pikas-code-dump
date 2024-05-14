@@ -1,0 +1,60 @@
+MapInfo 1
+Name = "Miner Fort Closed"
+
+MapInfo 2
+Name = "Miner Fort Open"
+
+MapInfo 3
+Name = "MAP003"
+
+MapInfo 4
+Name = "Imperial Army's FortressF1F"
+
+MapInfo 5
+Name = "Imperial Army's FortressF3F"
+
+MapInfo 6
+Name = ""
+
+MapInfo 7
+Name = "Miner Fort Open"
+
+MapInfo 8
+Name = "Imperial Army's FortressF2F"
+
+MapInfo 9
+Name = "Imperial Army's FortressF1F"
+
+MapInfo 10
+Name = "Imperial Army's FortressF1F"
+
+MapInfo 11
+Name = "Imperial Army's FortressF1F"
+
+MapInfo 12
+Name = "Imperial Army's FortressF1F"
+
+MapInfo 13
+Name = "Imperial Army's FortressF2F"
+
+MapInfo 14
+Name = "Imperial Army's FortressF2F"
+
+MapInfo 15
+Name = "Imperial Army's FortressF2F"
+
+MapInfo 16
+Name = "Imperial Army's FortressF2F"
+
+MapInfo 17
+Name = "Imperial Army's FortressF2F"
+
+MapInfo 18
+Name = "Imperial Army's FortressF3F"
+
+MapInfo 19
+Name = "Imperial Army's FortressF3F"
+
+MapInfo 20
+Name = "Imperial Army's FortressF3F"
+

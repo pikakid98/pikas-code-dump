@@ -1,0 +1,5 @@
+Armor 1
+Name = "Casual Clothes"
+Description = "Very lightweight clothes."
+Note = ""
+

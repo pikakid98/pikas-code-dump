@@ -1,0 +1,32 @@
+Actor 1
+Nickname = ""
+Character Name = "Jordan"
+Face Name = ""
+Name = "Jordan"
+Description = ""
+Note = ""
+
+Actor 2
+Nickname = ""
+Character Name = "Evolle"
+Face Name = ""
+Name = "Evolle"
+Description = ""
+Note = ""
+
+Actor 3
+Nickname = ""
+Character Name = "Candice"
+Face Name = ""
+Name = "Candice"
+Description = ""
+Note = ""
+
+Actor 4
+Nickname = ""
+Character Name = "Lana"
+Face Name = ""
+Name = "Lana"
+Description = ""
+Note = ""
+

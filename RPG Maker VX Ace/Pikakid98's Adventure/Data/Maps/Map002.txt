@@ -1,0 +1,106 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    CallCommonEvent([10])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["[Evolle]"])
+    ShowText([" If You've Collected Any Coins Then Give Them To Me"])
+    ShowText([" I'll Transfer Them Back Home"])
+    ShopProcessing([0, 19, 0, 0, false])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["[Monsita]"])
+    ShowText([" MONSITA SELL YOU ITEMS!!!"])
+    ShopProcessing([0, 1, 0, 0, true])
+    ShopItem([0, 2, 0, 0])
+    ShopItem([0, 3, 0, 0])
+    ShopItem([0, 4, 0, 0])
+    ShopItem([0, 5, 0, 0])
+    ShopItem([0, 6, 0, 0])
+    ShopItem([0, 7, 0, 0])
+    ShopItem([0, 8, 0, 0])
+    ShopItem([0, 9, 0, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["[Monsita]"])
+    ShowText([" MONSITA LIKES HUMAN!!! COME AGAIN!!!"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["[Candice]"])
+    ShowText([" Hey Jordan. If You Bring Me Monster Souls. I Can"])
+    ShowText([" Turns Them Into Seeds."])
+    ShopProcessing([0, 17, 1, 0, false])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["[Lana]"])
+    ShowText([" Hi Jordan. I Can Convert Seeds Into \\C[3]Special\\C[0] Coins"])
+    ShopProcessing([0, 18, 1, 100, false])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["[Clint]"])
+    ShowText([" Misstress Wants Me To Sell Weapons."])
+    ShowText([" I Do As Misstress Wishes"])
+    ShopProcessing([1, 2, 0, 0, true])
+    ShopItem([1, 3, 0, 0])
+    ShopItem([1, 4, 0, 0])
+    ShopItem([1, 5, 0, 0])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["[Cindy]"])
+    ShowText([" Oh Darling. Welcome To My Inn. It's Free To Heal"])
+    ShowText([" Up. Will You Try It Out?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      PlaySE(["RPG::SE(@name=\"Heal3\", @pitch=100, @volume=80)"])
+      RecoverAll([0, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])

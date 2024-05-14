@@ -1,0 +1,7 @@
+Game Title = "Project9"
+Currency Unit = "G"
+Title 1 Name = "Plain"
+Title 2 Name = "Forest"
+Battleback 1 Name = "Grassland"
+Battleback 2 Name = "Grassland"
+Battler Name = "Assassin"

@@ -1,0 +1,21 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ConditionalBranch([12, "day = Time.now.day; day >= 16/4 && day <= 29/4"])
+      SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=44, @parameters=[\\\"RPG::SE(@name=\\\\\\\"Absorb1\\\\\\\", @pitch=100, @volume=80)\\\"])\", \"RPG::MoveCommand(@code=41, @parameters=[\\\"!Chest\\\", 0])\", \"RPG::MoveCommand(@code=40, @parameters=[])\", \"RPG::MoveCommand(@code=38, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=44, @parameters=[\"RPG::SE(@name=\\\"Absorb1\\\", @pitch=100, @volume=80)\"])"])
+      Unnamed(["RPG::MoveCommand(@code=41, @parameters=[\"!Chest\", 0])"])
+      Unnamed(["RPG::MoveCommand(@code=40, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=38, @parameters=[])"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])

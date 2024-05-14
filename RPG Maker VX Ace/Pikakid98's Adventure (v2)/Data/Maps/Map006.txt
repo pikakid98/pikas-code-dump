@@ -1,0 +1,24 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 0])
+    ShowText(["Pikakid98's Adventure"])
+    ShowText(["By Pikakid98"])
+    ShowText([" "])
+    ShowText(["[Version 1.0]"])
+    ShowChoices([["Start Game", "No"], 2])
+    When([0, "Start Game"])
+      TransferPlayer([0, 2, 13, 34, 0, 0])
+      Empty([])
+
+    When([1, "No"])
+      TransferPlayer([0, 5, 10, 16, 8, 0])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])

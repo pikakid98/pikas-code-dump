@@ -1,0 +1,53 @@
+CommonEvent 1
+Name = "settings"
+
+  Loop([])
+    ShowChoices([["Resize Window", "\\C[2]Back"], 4])
+    When([0, "Resize Window"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\>Choose a window size"])
+      ShowChoices([["Default", "640x480", "800x600", "1080x720"], 0])
+      When([0, "Default"])
+        Script(["File.open(\"secchan-winsize (default).scconf\", 'w') {|f| f.write(\"win size settings\") }"])
+        Script(["Window_Resize.r(544, 416)"])
+        Empty([])
+
+      When([1, "640x480"])
+        Script(["File.open(\"secchan-winsize (640x480).scconf\", 'w') {|f| f.write(\"win size settings\") }"])
+        Script(["Window_Resize.r(640, 480)"])
+        Empty([])
+
+      When([2, "800x600"])
+        Script(["File.open(\"secchan-winsize (800x600).scconf\", 'w') {|f| f.write(\"win size settings\") }"])
+        Script(["Window_Resize.r(800, 600)"])
+        Empty([])
+
+      When([3, "1080x720"])
+        Script(["File.open(\"secchan-winsize (1080x720).scconf\", 'w') {|f| f.write(\"win size settings\") }"])
+        Script(["Window_Resize.r(1080, 720)"])
+        Empty([])
+
+      ChoicesEnd([])
+      ShowChoices([["1280x760"], 0])
+      When([0, "1280x760"])
+        Script(["File.open(\"secchan-winsize (1280x760).scconf\", 'w') {|f| f.write(\"win size settings\") }"])
+        Script(["Window_Resize.r(1280, 760)"])
+        Empty([])
+
+      ChoicesEnd([])
+      ShowChoices([["\\C[2]Back"], 1])
+      When([0, "\\C[2]Back"])
+        Empty([])
+
+      ChoicesEnd([])
+      Empty([])
+
+    When([1, "\\C[2]Back"])
+      BreakLoop([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  RepeatAbove([])
+  Empty([])

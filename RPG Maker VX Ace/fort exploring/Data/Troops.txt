@@ -1,0 +1,83 @@
+Troop 1
+Name = "Slime*2"
+
+Page 0
+  Empty([])
+
+Troop 2
+Name = "Bat*2"
+
+Page 0
+  Empty([])
+
+Troop 3
+Name = "Hornet*2"
+
+Page 0
+  Empty([])
+
+Troop 4
+Name = "Spider*3"
+
+Page 0
+  Empty([])
+
+Troop 5
+Name = "Rate*3"
+
+Page 0
+  Empty([])
+
+Troop 6
+Name = "Wisp*3"
+
+Page 0
+  Empty([])
+
+Troop 7
+Name = "Large Snake*2"
+
+Page 0
+  Empty([])
+
+Troop 8
+Name = "Firespirit"
+
+Page 0
+  Empty([])
+
+Troop 9
+Name = "Swampspirit"
+
+Page 0
+  Empty([])
+
+Troop 10
+Name = "Earthspirit"
+
+Page 0
+  Empty([])
+
+Troop 11
+Name = "Desertspirit"
+
+Page 0
+  Empty([])
+
+Troop 12
+Name = "Icespirit"
+
+Page 0
+  Empty([])
+
+Troop 13
+Name = "Cavespirit"
+
+Page 0
+  Empty([])
+
+Troop 14
+Name = ""
+
+Page 0
+  Empty([])

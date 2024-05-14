@@ -1,0 +1,25 @@
+Weapon 1
+Name = "Common Sword"
+Description = "A Common Sword"
+Note = ""
+
+Weapon 2
+Name = "Uncommon Sword"
+Description = "An Uncommon Sword"
+Note = ""
+
+Weapon 3
+Name = "Rare Sword"
+Description = "A Rare Sword"
+Note = ""
+
+Weapon 4
+Name = "Very Rare Sword"
+Description = "A Very Rare Sword"
+Note = ""
+
+Weapon 5
+Name = "Legendary Sword"
+Description = "A Legendary Sword"
+Note = ""
+

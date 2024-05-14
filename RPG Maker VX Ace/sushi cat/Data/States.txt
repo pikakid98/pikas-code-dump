@@ -1,0 +1,10 @@
+State 1
+Icon Index = 17
+Message 1 = " has fallen!"
+Message 2 = " is slain!"
+Message 3 = ""
+Message 4 = " revives!"
+Name = "Death"
+Description = nil
+Note = "State #1 will be automatically added when\r\nHP reaches 0."
+

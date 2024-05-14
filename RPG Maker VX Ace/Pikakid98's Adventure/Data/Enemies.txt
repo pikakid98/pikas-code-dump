@@ -1,0 +1,30 @@
+Enemy 1
+Battler Name = "Slime"
+Name = "Common Slime"
+Description = nil
+Note = ""
+
+Enemy 2
+Battler Name = "Slime"
+Name = "Uncommon Slime"
+Description = nil
+Note = ""
+
+Enemy 3
+Battler Name = "Slime"
+Name = "Rare Slime"
+Description = nil
+Note = ""
+
+Enemy 4
+Battler Name = "Slime"
+Name = "Very Rare Slime"
+Description = nil
+Note = ""
+
+Enemy 5
+Battler Name = "Slime"
+Name = "Legendary Slime"
+Description = nil
+Note = ""
+

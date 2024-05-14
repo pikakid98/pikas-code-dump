@@ -1,0 +1,6 @@
+Enemy 1
+Battler Name = "Slime"
+Name = "Slime"
+Description = nil
+Note = ""
+

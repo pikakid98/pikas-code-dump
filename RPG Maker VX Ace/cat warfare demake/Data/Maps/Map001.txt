@@ -1,0 +1,13 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    FadeoutScreen([])
+    Script(["DataManager.load_game(0)"])
+    ControlSwitches([1, 1, 0])
+    Empty([])

@@ -1,0 +1,7 @@
+Game Title = "Pikakid98's Adventure"
+Currency Unit = "Seeds"
+Title 1 Name = ""
+Title 2 Name = ""
+Battleback 1 Name = "Grassland"
+Battleback 2 Name = "Grassland"
+Battler Name = "Assassin"

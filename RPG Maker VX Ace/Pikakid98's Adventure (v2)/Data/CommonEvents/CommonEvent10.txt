@@ -1,0 +1,13 @@
+CommonEvent 10
+Name = "[LIST OF CHANGES]"
+
+  ControlSelfSwitch(["A", 0])
+  PlaySE(["RPG::SE(@name=\"Book1\", @pitch=100, @volume=80)"])
+  ShowTextAttributes(["", 0, 1, 1])
+  ShowText(["Replaced internal coin name with \\C[3]Special\\C[0]\\}(5 instances)\\{"])
+  ShowText(["Reformatted Evolle's text due to a longer coin name"])
+  ShowText(["Removed unused music"])
+  ShowText(["Toned the menu brightness down"])
+  PlaySE(["RPG::SE(@name=\"Cursor1\", @pitch=100, @volume=80)"])
+  ControlSelfSwitch(["A", 1])
+  Empty([])

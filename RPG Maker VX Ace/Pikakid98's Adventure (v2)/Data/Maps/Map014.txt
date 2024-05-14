@@ -1,0 +1,76 @@
+Display Name = "Deepest Black Forest"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 60, true])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    TransferPlayer([0, 11, 14, 0, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Forest Guardian"])
+    ShowText(["\\C[0] I Thank You For Freeing Me Of My Curse"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Evolle"])
+    ShowText(["\\C[0] Wait! Curse?"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Forest Guardian"])
+    ShowText(["\\C[0] Yes, My Dear. You See. My Forest Used To Be So Nice"])
+    ShowText([" And The Apples So Fresh. But Now. They Have Become"])
+    ShowText([" Mear Darkness"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Forest Guardian"])
+    ShowText(["\\C[0] I Am One Of The Many Guardians Who Have"])
+    ShowText([" Become Corrupted"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Eaza"])
+    ShowText(["\\C[0] My Name Is Eaza. And I Am Forever In Your Debt"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Eaza"])
+    ShowText(["\\C[0] Allow Me To Cure You Of Your Ailments"])
+    PlaySE(["RPG::SE(@name=\"Absorb2\", @pitch=100, @volume=80)"])
+    RecoverAll([0, 0])
+    Wait([60])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[3]Eaza"])
+    ShowText(["\\C[0] There. Now Allow Me To Get You Out Of Here"])
+    ShowText([" And Back To Safety"])
+    TransferPlayer([0, 13, 8, 13, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Empty([])

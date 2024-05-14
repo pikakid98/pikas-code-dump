@@ -1,0 +1,51 @@
+MapInfo 1
+Name = "The Shop"
+
+MapInfo 2
+Name = "???"
+
+MapInfo 3
+Name = ""
+
+MapInfo 4
+Name = "Pika Space"
+
+MapInfo 5
+Name = "Pika Space"
+
+MapInfo 6
+Name = "Title"
+
+MapInfo 7
+Name = ""
+
+MapInfo 8
+Name = "World Map"
+
+MapInfo 9
+Name = "Black Forest"
+
+MapInfo 10
+Name = "Deep Black Forest"
+
+MapInfo 11
+Name = "Deeper Black Forest"
+
+MapInfo 12
+Name = "Deepest Black Forest"
+
+MapInfo 13
+Name = "The Shop 2"
+
+MapInfo 14
+Name = "Deepest Black Forest"
+
+MapInfo 15
+Name = "World Map 2"
+
+MapInfo 16
+Name = "Light Forest"
+
+MapInfo 17
+Name = "Deep Light Forest"
+

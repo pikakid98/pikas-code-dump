@@ -1,0 +1,49 @@
+Display Name = "Deepest Black Forest"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ConditionalBranch([8, 20])
+      ChangeState([0, 0, 0, 29])
+      ChangeState([0, 0, 1, 28])
+      BattleProcessing([0, 1, false, false])
+      Empty([])
+
+    Else([])
+      TintScreen(["Tone(@red=-255.0, @green=-85.0, @blue=-170.0, @gray=170.0)", 1, false])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    TransferPlayer([0, 11, 14, 0, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ConditionalBranch([8, 20])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\C[3]Forest Guardian"])
+      ShowText(["\\C[0] g    I    v    E       m    Y       "])
+      ShowText(["h    E    a    r    T       b    A    c    K      "])
+      ShowText(["t    O       m    E"])
+      BattleProcessing([0, 4, false, false])
+      Empty([])
+
+    Else([])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["You Picked Up The Black Hearted Apple"])
+      ChangeItems([20, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
